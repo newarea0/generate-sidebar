@@ -1,6 +1,6 @@
 {
   "name": "@newarea/generate-sidebar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "该脚本用于自动生成 VitePress 侧边栏配置",
   "publishConfig": {
     "access": "public"
