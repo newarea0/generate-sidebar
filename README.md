@@ -22,7 +22,7 @@ generate-sidebar 目录名 输出文件路径
 示例：
 
 ```bash
-node .\generate-sidebar.js .\依赖包\ .\.vitepress\menu\package.ts
+generate-sidebar .\依赖包\ .\.vitepress\menu\package.ts
 ```
 
 ## 注意事项
