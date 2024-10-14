@@ -5,30 +5,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "bin": {
-    "generate-sidebar": "bin/index.js"
-  },
-  "files": [
-    "bin"
-  ],
-  "scripts": {
-    "build": "rollup -c"
-  },
-  "keywords": [
-    "vitepress",
-    "sidebar"
-  ],
   "author": "newarea",
-  "devDependencies": {
-    "@rollup/plugin-commonjs": "^22.0.0",
-    "@rollup/plugin-node-resolve": "^13.3.0",
-    "@rollup/plugin-typescript": "^8.3.2",
-    "rollup": "^2.75.6",
-    "rollup-plugin-preserve-shebang": "^1.0.1",
-    "rollup-plugin-shebang": "^0.1.5",
-    "typescript": "^4.7.3",
-    "vitepress": "^1.4.1"
-  },
+  "homepage": "https://github.com/newarea0/generate-sidebar#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/newarea0/generate-sidebar.git"
@@ -36,5 +14,30 @@
   "bugs": {
     "url": "https://github.com/newarea0/generate-sidebar/issues"
   },
-  "homepage": "https://github.com/newarea0/generate-sidebar#readme"
+  "keywords": [
+    "vitepress",
+    "sidebar"
+  ],
+  "bin": {
+    "generate-sidebar": "bin/index.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.7.3",
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "eslint": "^9.12.0",
+    "rollup": "^2.75.6",
+    "rollup-plugin-preserve-shebang": "^1.0.1",
+    "typescript": "^4.7.3",
+    "vitepress": "^1.4.1"
+  }
 }
